@@ -5,11 +5,9 @@ Home: https://github.com/react-R/reactR
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-reactr-feedstock/blob/master/LICENSE.txt)
 
 Summary: Make it easy to use 'React' in R with 'htmlwidget' scaffolds, helper dependency functions, an embedded 'Babel' 'transpiler', and examples.
-
-
 
 Current build status
 ====================
