@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/reactR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/reactR/reactR_{{ version }}.tar.gz
-  sha256: e79e3f37c2f28ae70c912efe203dbca35094ce017e497421c049e1221817f192
+  sha256: 5b242b973fd800a6139726056145a2081f57f5becf6572ebf45b5a50bcfb2956
 
 build:
   merge_build_host: true  # [win]
