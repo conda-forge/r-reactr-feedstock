@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/reactR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/reactR/reactR_{{ version }}.tar.gz
-  sha256: 5b242b973fd800a6139726056145a2081f57f5becf6572ebf45b5a50bcfb2956
+  sha256: 9b690d7d4de54cbecca16deea9684f1d4aba91b2b280b38ea13c63eb5e57d892
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
